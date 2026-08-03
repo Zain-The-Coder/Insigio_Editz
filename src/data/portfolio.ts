@@ -18,7 +18,7 @@ export const portfolioItems: PortfolioItem[] = [
     duration: "3:31",
     category: "highlights",
     thumbnail: "/images/thumbnail-1.jpg",
-    driveUrl: "https://drive.google.com/file/d/1xlZAbzHaML7aoBrg_uHoVOF5prvycK9T/view?usp=drive_link",
+    driveUrl: "https://drive.google.com/file/d/1xlZAbzHaML7aoBrg_uHoVOF5prvycK9T/preview",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ export const portfolioItems: PortfolioItem[] = [
     duration: "2:30",
     category: "highlights",
     thumbnail: "/images/thumbnail-2.jpg",
-    driveUrl: "https://drive.google.com/file/d/1FXayIRhCj2dGnKKi8emhgoXwtmgmQWe8/view?usp=drive_link",
+    driveUrl: "https://drive.google.com/file/d/1FXayIRhCj2dGnKKi8emhgoXwtmgmQWe8/preview",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ export const portfolioItems: PortfolioItem[] = [
     duration: "2:39",
     category: "highlights",
     thumbnail: "/images/thumbnail-3.jpg",
-    driveUrl: "https://drive.google.com/file/d/1Q82H5AzjGDKaLRN8dRim7qnDuTnRPx9A/view?usp=drive_link",
+    driveUrl: "https://drive.google.com/file/d/1Q82H5AzjGDKaLRN8dRim7qnDuTnRPx9A/preview",
   },
   {
     id: 4,
@@ -48,7 +48,7 @@ export const portfolioItems: PortfolioItem[] = [
     duration: "3:10",
     category: "highlights",
     thumbnail: "/images/thumbnail-4.jpg",
-    driveUrl: "https://drive.google.com/file/d/16lYeIS1AtagRSoksTBZOGIverIHIwdGS/view?usp=drive_link",
+    driveUrl: "https://drive.google.com/file/d/16lYeIS1AtagRSoksTBZOGIverIHIwdGS/preview",
   },
   {
     id: 5,
@@ -58,7 +58,7 @@ export const portfolioItems: PortfolioItem[] = [
     duration: "2:44",
     category: "highlights",
     thumbnail: "/images/thumbnail-5.jpg",
-    driveUrl: "https://drive.google.com/file/d/12KeyzNpLT4NEQFrourS6icn_nnpn-4Ea/view?usp=drive_link",
+    driveUrl: "https://drive.google.com/file/d/12KeyzNpLT4NEQFrourS6icn_nnpn-4Ea/preview",
   },
   {
     id: 6,
