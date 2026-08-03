@@ -441,7 +441,7 @@ export default function Home() {
                       Email
                     </div>
                     <div className="text-ivory-100 font-body">
-                      zain015976@gmail.com
+                      insigiotech@gmail.com
                     </div>
                   </div>
                 </div>
