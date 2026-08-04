@@ -63,12 +63,12 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: 6,
     title: "Eternal Promises",
-    couple: "Anastasia & Sebastian",
-    location: "Vienna, Austria",
-    duration: "1:15",
+    couple: "Hannah & Omar",
+    location: "USA",
+    duration: "1:46",
     category: "teasers",
     thumbnail: "/images/thumbnail-6.jpg",
-    driveUrl: "https://drive.google.com/file/d/PLACEHOLDER_ID_6/preview",
+    driveUrl: "https://drive.google.com/file/d/1YyVNldO91Gw6sfkvFecO4lodGgPWbdl8/preview",
   },
 ];
 
