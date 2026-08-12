@@ -122,7 +122,7 @@ export const portfolioItems: PortfolioItem[] = [
     location: "Karachi , Pakistan",
     duration: "7:16",
     category: "vlogs",
-    thumbnail: "/images/thumbnail-vlog-1.jpg",
+    thumbnail: "/images/thumbnail-vlog-1-new.jpg",
     driveUrl: "https://drive.google.com/file/d/1iNxIU_Zy5KbRL8U1OK88VTyxmx3e1u0z/preview",
   },
   {
@@ -132,7 +132,7 @@ export const portfolioItems: PortfolioItem[] = [
     location: "Karachi , Pakistan",
     duration: "09:03",
     category: "vlogs",
-    thumbnail: "/images/thumbnail-vlog-2.jpg",
+    thumbnail: "/images/thumbnail-vlog-2-new.jpg",
     driveUrl: "https://drive.google.com/file/d/1xu656wqGD0J_5JBLhZSEyEyLuYskZTTm/preview",
   },
 
