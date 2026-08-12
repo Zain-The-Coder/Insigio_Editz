@@ -149,7 +149,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     id: 12,
-    title: "Athlete Reel",
+    title: "Story of a dedicated teacher",
     couple: "Master Ayub",
     location: "Pakistan",
     duration: "0:25",
