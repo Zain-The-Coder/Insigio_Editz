@@ -139,7 +139,7 @@ export const portfolioItems: PortfolioItem[] = [
   // ── Entrepreneurs & Athletes ──
   {
     id: 11,
-    title: "The Startup Grind — Short Film",
+    title: "The Scientific discovery",
     couple: "DR Mariano Barbacid",
     location: "Madrid",
     duration: "1:18",
@@ -149,7 +149,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     id: 12,
-    title: "Track & Triumph — Athlete Reel",
+    title: "Athlete Reel",
     couple: "Master Ayub",
     location: "Pakistan",
     duration: "0:25",
