@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Inter } from "next/font/google";
+import { Space_Grotesk, Inter } from "next/font/google";
 import "./globals.css";
 
-const cormorant = Cormorant_Garamond({
+const spaceGrotesk = Space_Grotesk({
   variable: "--font-heading",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
@@ -16,22 +16,24 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Insigio Studio | High-End Cinematic Wedding Film Editing",
+  title: "Insigio Editz | High-End Cinematic Editing Studio",
   description:
-    "Premium wedding film editing studio crafting cinematic stories for luxury wedding videographers. Expert color grading, sound design, and storytelling.",
+    "Premium video editing studio crafting cinematic content for weddings, fitness brands, vlogs, and short-form creator videos. Expert color grading, sound design, and storytelling.",
   keywords: [
-    "wedding film editing",
+    "video editing studio",
     "cinematic wedding films",
-    "luxury wedding videographer",
-    "wedding film editor",
-    "premium wedding videos",
+    "fitness video editing",
+    "vlog editing",
+    "short-form video editing",
+    "content creator editing",
+    "premium video production",
   ],
   openGraph: {
-    title: "Insigio Studio | High-End Cinematic Wedding Film Editing",
+    title: "Insigio Editz | High-End Cinematic Editing Studio",
     description:
-      "Premium wedding film editing tailored for luxury storytellers.",
+      "Premium video editing for weddings, fitness, vlogs, and short-form content.",
     type: "website",
-    siteName: "Insigio Studio",
+    siteName: "Insigio Editz",
   },
 };
 
@@ -41,8 +43,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${inter.variable}`}>
-      <body className="min-h-screen bg-charcoal-950 text-ivory-100 font-body antialiased">
+    <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable}`}>
+      <body className="min-h-screen bg-charcoal-950 text-slate-100 font-body antialiased">
         {children}
       </body>
     </html>

@@ -60,11 +60,11 @@ export default function Navbar() {
           onClick={(e) => scrollToSection(e, "#top")}
           className="flex flex-col group cursor-pointer transition-opacity hover:opacity-90 select-none"
         >
-          <span className="font-heading text-2xl md:text-3xl tracking-[0.3em] font-light text-ivory-100 group-hover:text-gold-400 transition-colors">
+          <span className="font-heading text-2xl md:text-3xl tracking-[0.3em] font-light text-slate-100 group-hover:text-cyan-400 transition-colors">
             INSIGIO
           </span>
-          <span className="text-gold-600 text-[10px] tracking-[0.45em] font-medium uppercase font-body -mt-1 pl-0.5">
-            STUDIO
+          <span className="text-cyan-600 text-[10px] tracking-[0.45em] font-medium uppercase font-body -mt-1 pl-0.5">
+            EDITZ
           </span>
         </a>
 
@@ -75,10 +75,10 @@ export default function Navbar() {
               key={link.name}
               href={link.href}
               onClick={(e) => scrollToSection(e, link.href)}
-              className="text-xs font-medium uppercase tracking-widest text-ivory-200/70 hover:text-gold-500 transition-colors relative py-1 group cursor-pointer"
+              className="text-xs font-medium uppercase tracking-widest text-slate-200/70 hover:text-cyan-500 transition-colors relative py-1 group cursor-pointer"
             >
               {link.name}
-              <span className="absolute bottom-0 left-0 w-0 h-px bg-gold-500 transition-all duration-300 group-hover:w-full" />
+              <span className="absolute bottom-0 left-0 w-0 h-px bg-cyan-500 transition-all duration-300 group-hover:w-full" />
             </a>
           ))}
         </nav>
@@ -88,7 +88,7 @@ export default function Navbar() {
           <a
             href="#contact"
             onClick={(e) => scrollToSection(e, "#contact")}
-            className="inline-block bg-gold-600 hover:bg-gold-500 text-charcoal-950 font-semibold px-6 py-2.5 rounded-none text-xs uppercase tracking-widest transition-all duration-300 hover:shadow-lg hover:shadow-gold-600/20 active:translate-y-0.5 cursor-pointer"
+            className="inline-block bg-cyan-600 hover:bg-cyan-500 text-charcoal-950 font-semibold px-6 py-2.5 rounded-none text-xs uppercase tracking-widest transition-all duration-300 hover:shadow-lg hover:shadow-cyan-600/20 active:translate-y-0.5 cursor-pointer"
           >
             Work With Us
           </a>
@@ -97,13 +97,13 @@ export default function Navbar() {
         {/* Mobile Menu Toggle Button */}
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          className="md:hidden text-ivory-100 hover:text-gold-500 transition-colors p-2 focus:outline-none cursor-pointer"
+          className="md:hidden text-slate-100 hover:text-cyan-500 transition-colors p-2 focus:outline-none cursor-pointer"
           aria-label={isMobileMenuOpen ? "Close Menu" : "Open Menu"}
         >
           {isMobileMenuOpen ? (
-            <X className="w-6 h-6 text-gold-500" />
+            <X className="w-6 h-6 text-cyan-500" />
           ) : (
-            <Menu className="w-6 h-6 text-ivory-100" />
+            <Menu className="w-6 h-6 text-slate-100" />
           )}
         </button>
       </div>
@@ -124,7 +124,7 @@ export default function Navbar() {
                   key={link.name}
                   href={link.href}
                   onClick={(e) => scrollToSection(e, link.href)}
-                  className="text-sm font-medium uppercase tracking-[0.2em] text-ivory-200/80 hover:text-gold-400 transition-colors py-2 cursor-pointer"
+                  className="text-sm font-medium uppercase tracking-[0.2em] text-slate-200/80 hover:text-cyan-400 transition-colors py-2 cursor-pointer"
                 >
                   {link.name}
                 </a>
@@ -133,7 +133,7 @@ export default function Navbar() {
                 <a
                   href="#contact"
                   onClick={(e) => scrollToSection(e, "#contact")}
-                  className="block w-full bg-gold-600 hover:bg-gold-500 text-charcoal-950 font-semibold py-3 rounded-none text-xs uppercase tracking-widest transition-all duration-300 text-center cursor-pointer"
+                  className="block w-full bg-cyan-600 hover:bg-cyan-500 text-charcoal-950 font-semibold py-3 rounded-none text-xs uppercase tracking-widest transition-all duration-300 text-center cursor-pointer"
                 >
                   Work With Us
                 </a>

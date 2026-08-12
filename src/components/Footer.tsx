@@ -74,9 +74,9 @@ export default function Footer() {
   };
 
   return (
-    <footer className="relative bg-charcoal-950 border-t border-charcoal-800 text-ivory-100">
+    <footer className="relative bg-charcoal-950 border-t border-charcoal-800 text-slate-100">
       {/* Gold decorative thin gradient line */}
-      <div className="h-px bg-gradient-to-r from-transparent via-gold-600/50 to-transparent w-full" />
+      <div className="h-px bg-gradient-to-r from-transparent via-cyan-600/50 to-transparent w-full" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-16">
         {/* Top section: Logo, Tagline, Social Links */}
@@ -87,15 +87,15 @@ export default function Footer() {
               onClick={(e) => scrollToSection(e, "#top")}
               className="flex flex-col group cursor-pointer select-none"
             >
-              <span className="font-heading text-2xl md:text-3xl tracking-[0.3em] font-light text-ivory-100 group-hover:text-gold-400 transition-colors">
+              <span className="font-heading text-2xl md:text-3xl tracking-[0.3em] font-light text-slate-100 group-hover:text-cyan-400 transition-colors">
                 INSIGIO
               </span>
-              <span className="text-gold-600 text-[10px] tracking-[0.45em] font-medium uppercase font-body -mt-1 pl-0.5">
-                STUDIO
+              <span className="text-cyan-600 text-[10px] tracking-[0.45em] font-medium uppercase font-body -mt-1 pl-0.5">
+                EDITZ
               </span>
             </a>
-            <p className="font-heading italic text-ivory-200/50 text-sm md:text-base max-w-md">
-              Crafting timeless cinematic stories for luxury wedding filmmakers worldwide.
+            <p className="font-heading  text-slate-200/50 text-sm md:text-base max-w-md">
+              Premium cinematic editing for weddings, fitness brands, vlogs, and creators worldwide.
             </p>
           </div>
 
@@ -110,7 +110,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={social.name}
-                  className="text-ivory-200/40 hover:text-gold-500 transition-colors duration-300 p-2 hover:scale-110 transform"
+                  className="text-slate-200/40 hover:text-cyan-500 transition-colors duration-300 p-2 hover:scale-110 transform"
                 >
                   <Icon className="w-5 h-5" />
                 </a>
@@ -126,19 +126,19 @@ export default function Footer() {
               key={link.name}
               href={link.href}
               onClick={(e) => scrollToSection(e, link.href)}
-              className="text-xs font-medium uppercase tracking-widest text-ivory-200/70 hover:text-gold-500 transition-colors relative py-1 group cursor-pointer"
+              className="text-xs font-medium uppercase tracking-widest text-slate-200/70 hover:text-cyan-500 transition-colors relative py-1 group cursor-pointer"
             >
               {link.name}
-              <span className="absolute bottom-0 left-0 w-0 h-px bg-gold-500 transition-all duration-300 group-hover:w-full" />
+              <span className="absolute bottom-0 left-0 w-0 h-px bg-cyan-500 transition-all duration-300 group-hover:w-full" />
             </a>
           ))}
         </div>
 
         {/* Bottom section: Copyright */}
-        <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-ivory-200/30">
-          <p>© 2026 Insigio Studio. All rights reserved.</p>
+        <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-200/30">
+          <p>Â© 2026 Insigio Editz. All rights reserved.</p>
           <p className="tracking-wider uppercase text-[10px]">
-            Luxury Wedding Film Post-Production
+            Premium Video Editing & Post-Production
           </p>
         </div>
       </div>

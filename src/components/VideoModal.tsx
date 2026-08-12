@@ -41,7 +41,7 @@ export function VideoModal({ isOpen, onClose, driveUrl }: VideoModalProps) {
           
           <button 
             onClick={onClose}
-            className="absolute top-6 right-6 z-[110] p-2 text-ivory-100/70 hover:text-gold-500 transition-colors bg-charcoal-900/50 rounded-full hover:bg-charcoal-900"
+            className="absolute top-6 right-6 z-[110] p-2 text-slate-100/70 hover:text-cyan-500 transition-colors bg-charcoal-900/50 rounded-full hover:bg-charcoal-900"
           >
             <X size={28} />
           </button>

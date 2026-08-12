@@ -17,9 +17,9 @@ interface ContactFormProps {
 }
 
 const BUDGET_OPTIONS = [
-  "$1,000 – $1,500",
-  "$1,500 – $2,000",
-  "$2,000 – $3,000",
+  "$1,000 â€“ $1,500",
+  "$1,500 â€“ $2,000",
+  "$2,000 â€“ $3,000",
   "$3,000+",
 ];
 
@@ -74,9 +74,9 @@ export function ContactForm({ className = "" }: ContactFormProps) {
   };
 
   const inputClasses =
-    "w-full bg-charcoal-800 border border-charcoal-600 text-ivory-100 px-4 py-3 rounded-none focus:outline-none focus:border-gold-600 focus:ring-1 focus:ring-gold-600/30 hover:border-charcoal-500 transition-all placeholder:text-ivory-200/30 font-body";
+    "w-full bg-charcoal-800 border border-charcoal-600 text-slate-100 px-4 py-3 rounded-none focus:outline-none focus:border-cyan-600 focus:ring-1 focus:ring-cyan-600/30 hover:border-charcoal-500 transition-all placeholder:text-slate-200/30 font-body";
   const labelClasses =
-    "text-ivory-200/70 text-sm font-medium uppercase tracking-wider mb-2 block font-body";
+    "text-slate-200/70 text-sm font-medium uppercase tracking-wider mb-2 block font-body";
 
   return (
     <div className={`w-full ${className}`}>
@@ -90,11 +90,11 @@ export function ContactForm({ className = "" }: ContactFormProps) {
             transition={{ duration: 0.4, ease: "easeOut" }}
             className="bg-charcoal-900 border border-charcoal-700 p-8 sm:p-12 text-center flex flex-col items-center justify-center min-h-[400px]"
           >
-            <CheckCircle className="w-16 h-16 text-gold-500 mb-6 stroke-[1.5]" />
-            <h3 className="font-heading text-2xl sm:text-3xl text-ivory-100 mb-3 tracking-wide">
+            <CheckCircle className="w-16 h-16 text-cyan-500 mb-6 stroke-[1.5]" />
+            <h3 className="font-heading text-2xl sm:text-3xl text-slate-100 mb-3 tracking-wide">
               Message Sent
             </h3>
-            <p className="text-gold-500 font-medium text-lg">
+            <p className="text-cyan-500 font-medium text-lg">
               Thank you! We'll be in touch soon.
             </p>
           </motion.div>
@@ -108,7 +108,7 @@ export function ContactForm({ className = "" }: ContactFormProps) {
           >
             <div>
               <label htmlFor="name" className={labelClasses}>
-                Name <span className="text-gold-500">*</span>
+                Name <span className="text-cyan-500">*</span>
               </label>
               <input
                 id="name"
@@ -124,7 +124,7 @@ export function ContactForm({ className = "" }: ContactFormProps) {
 
             <div>
               <label htmlFor="email" className={labelClasses}>
-                Email <span className="text-gold-500">*</span>
+                Email <span className="text-cyan-500">*</span>
               </label>
               <input
                 id="email"
@@ -140,7 +140,7 @@ export function ContactForm({ className = "" }: ContactFormProps) {
 
             <div>
               <label htmlFor="projectDetails" className={labelClasses}>
-                Project Details <span className="text-gold-500">*</span>
+                Project Details <span className="text-cyan-500">*</span>
               </label>
               <textarea
                 id="projectDetails"
@@ -184,7 +184,7 @@ export function ContactForm({ className = "" }: ContactFormProps) {
                   <option
                     key={option}
                     value={option}
-                    className="bg-charcoal-800 text-ivory-100"
+                    className="bg-charcoal-800 text-slate-100"
                   >
                     {option}
                   </option>
@@ -195,7 +195,7 @@ export function ContactForm({ className = "" }: ContactFormProps) {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-gold-600 hover:bg-gold-500 text-charcoal-950 font-semibold py-4 text-sm uppercase tracking-widest transition-all duration-300 flex items-center justify-center gap-2 rounded-none cursor-pointer group disabled:opacity-70 disabled:cursor-not-allowed"
+              className="w-full bg-cyan-600 hover:bg-cyan-500 text-charcoal-950 font-semibold py-4 text-sm uppercase tracking-widest transition-all duration-300 flex items-center justify-center gap-2 rounded-none cursor-pointer group disabled:opacity-70 disabled:cursor-not-allowed"
             >
               <span>{loading ? "Sending..." : "Send Message"}</span>
               {!loading && <Send className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />}
