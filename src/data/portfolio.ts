@@ -144,7 +144,7 @@ export const portfolioItems: PortfolioItem[] = [
     location: "Madrid",
     duration: "1:18",
     category: "entrepreneurs-athletes",
-    thumbnail: "/images/thumbnail-ent-1.jpg",
+    thumbnail: "/images/dr.png",
     driveUrl: "https://drive.google.com/file/d/1JCEgxOjJdPjbGMV7YM-Zr4f3BRIp-ddf/preview",
   },
   {
@@ -154,7 +154,7 @@ export const portfolioItems: PortfolioItem[] = [
     location: "Pakistan",
     duration: "0:25",
     category: "entrepreneurs-athletes",
-    thumbnail: "/images/thumbnail-ent-2.jpg",
+    thumbnail: "/images/master_ayub.png",
     driveUrl: "https://drive.google.com/file/d/1BuiNKpjw0FPpe_A9aQGM-DsXNQgPNfko/preview",
   },
 ];
