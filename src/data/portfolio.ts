@@ -4,7 +4,7 @@ export interface PortfolioItem {
   couple: string;
   location: string;
   duration: string;
-  category: 'weddings' | 'gym-fitness' | 'vlogs' | 'entrepreneurs-athletes';
+  category: 'weddings' | 'gym-fitness' | 'vlogs' | 'entrepreneurs-athletes' | "foods";
   thumbnail: string;
   driveUrl: string;
 }
@@ -157,6 +157,36 @@ export const portfolioItems: PortfolioItem[] = [
     thumbnail: "/images/master_ayub.png",
     driveUrl: "https://drive.google.com/file/d/1BuiNKpjw0FPpe_A9aQGM-DsXNQgPNfko/preview",
   },
+  {
+    id : 13 ,
+    title : "Quick Indian Vegetable Curry Recipe" ,
+    couple : "Bhagya Deepu" ,
+    location : "Asia" ,
+    duration : "0:22" ,
+    category : "foods" ,
+    thumbnail : "/images/thumbnail-food-13.jpg" ,
+    driveUrl : "https://drive.google.com/file/d/1k8RaGlDTsqrJ3NyVhVZgBe_qz9QrCHNt/preview"
+  } ,
+  {
+    id : 14 ,
+    title : "Adam_Witt___🇬🇷_Greek_Ribs" ,
+    couple : "Adam Witt" ,
+    location : "Greek" ,
+    duration : "0:58" ,
+    category : "foods" ,
+    thumbnail : "/images/thumbnail-food-14.jpg" ,
+    driveUrl : "https://drive.google.com/file/d/1yWHE6_0PxEZPXqtjUVVq8hL2smzjfuBy/preview"
+  } ,
+  {
+    id : 15 ,
+    title : "Chicago_and_deep_dish_pizza" ,
+    couple : "Bhagya Deepu" ,
+    location : "Chicago" ,
+    duration : "0:44" ,
+    category : "foods" ,
+    thumbnail : "/images/thumbnail-food-15.jpg" ,
+    driveUrl : "https://drive.google.com/file/d/1S_nVPV6qozaVmR6RMx62GKW1ixLmnBQJ/preview"
+  } ,
 ];
 
 export const categories = [
@@ -165,4 +195,5 @@ export const categories = [
   { id: 'gym-fitness', label: 'Gym / Fitness' },
   { id: 'vlogs', label: 'Vlogs' },
   { id: 'entrepreneurs-athletes', label: 'Entrepreneurs & Athletes' },
+  {id : "food editz" , label : "Food"}
 ] as const;
