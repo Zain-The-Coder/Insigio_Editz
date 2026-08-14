@@ -158,7 +158,7 @@ export const portfolioItems: PortfolioItem[] = [
     driveUrl: "https://drive.google.com/file/d/1BuiNKpjw0FPpe_A9aQGM-DsXNQgPNfko/preview",
   },
   {
-    id : 13 ,
+    id : 15 ,
     title : "Quick Indian Vegetable Curry Recipe" ,
     couple : "Bhagya Deepu" ,
     location : "Asia" ,
@@ -168,7 +168,7 @@ export const portfolioItems: PortfolioItem[] = [
     driveUrl : "https://drive.google.com/file/d/1k8RaGlDTsqrJ3NyVhVZgBe_qz9QrCHNt/preview"
   } ,
   {
-    id : 14 ,
+    id : 16 ,
     title : "Adam_Witt___🇬🇷_Greek_Ribs" ,
     couple : "Adam Witt" ,
     location : "Greek" ,
@@ -178,7 +178,7 @@ export const portfolioItems: PortfolioItem[] = [
     driveUrl : "https://drive.google.com/file/d/1yWHE6_0PxEZPXqtjUVVq8hL2smzjfuBy/preview"
   } ,
   {
-    id : 15 ,
+    id : 17 ,
     title : "Chicago_and_deep_dish_pizza" ,
     couple : "Bhagya Deepu" ,
     location : "Chicago" ,
@@ -195,5 +195,5 @@ export const categories = [
   { id: 'gym-fitness', label: 'Gym / Fitness' },
   { id: 'vlogs', label: 'Vlogs' },
   { id: 'entrepreneurs-athletes', label: 'Entrepreneurs & Athletes' },
-  {id : "food editz" , label : "Food"}
+  {id : "foods" , label : "Food"}
 ] as const;
