@@ -4,7 +4,7 @@ export interface PortfolioItem {
   couple: string;
   location: string;
   duration: string;
-  category: 'weddings' | 'gym-fitness' | 'vlogs' | 'entrepreneurs-athletes' | "foods";
+  category: 'weddings' | 'gym-fitness' | 'vlogs' | 'entrepreneurs-athletes' | "foods" | "animated-reels" | "instagram-reels";
   thumbnail: string;
   driveUrl: string;
 }
@@ -187,6 +187,59 @@ export const portfolioItems: PortfolioItem[] = [
     thumbnail : "/images/thumbnail-food-15.jpg" ,
     driveUrl : "https://drive.google.com/file/d/1S_nVPV6qozaVmR6RMx62GKW1ixLmnBQJ/preview"
   } ,
+  // ── Instagram Reels ──
+  {
+    id: 18,
+    title: "Changing Jobs",
+    couple: "Instagram Reel",
+    location: "Global",
+    duration: "0:30",
+    category: "instagram-reels",
+    thumbnail: "/images/changing_jobs.jpg",
+    driveUrl: "https://drive.google.com/file/d/1IplbWjYQaKvZVE28Ttr7bJfNc7mAgOZi/preview",
+  },
+  {
+    id: 19,
+    title: "Electric Car",
+    couple: "Instagram Reel",
+    location: "Global",
+    duration: "0:45",
+    category: "instagram-reels",
+    thumbnail: "/images/electric_car.jpg",
+    driveUrl: "https://drive.google.com/file/d/1KRyvmLBI2eiHB2e7iTx9LxLFQ-_x31DM/preview",
+  },
+  {
+    id: 20,
+    title: "Novated Finance Australia",
+    couple: "Instagram Reel",
+    location: "Australia",
+    duration: "1:00",
+    category: "instagram-reels",
+    thumbnail: "/images/novated_finance.jpg",
+    driveUrl: "https://drive.google.com/file/d/1uB2wXU2naPdrjLhZxirz_wcWgkd93Aln/preview",
+  },
+  
+  // ── Animated Reels ──
+  {
+    id: 21,
+    title: "Car Repair Animated",
+    couple: "Animated Reel",
+    location: "Global",
+    duration: "0:40",
+    category: "animated-reels",
+    thumbnail: "/images/car_repair.jpg",
+    driveUrl: "https://drive.google.com/file/d/1ummXdS-8suCXhOX27fL3tIzQC2HtxmHs/preview",
+  },
+  {
+    id: 22,
+    title: "Fact: No upfront costs with novated leasing",
+    couple: "Animated Reel",
+    location: "Australia",
+    duration: "0:50",
+    category: "animated-reels",
+    thumbnail: "/images/no_upfront_costs.jpg",
+    driveUrl: "https://drive.google.com/file/d/1oLpKU8zqi4Xsm5PYLiOnCwwSK1TBZMB_/preview",
+  },
 ];
 
 export const categories = [
@@ -195,5 +248,7 @@ export const categories = [
   { id: 'gym-fitness', label: 'Gym / Fitness' },
   { id: 'vlogs', label: 'Vlogs' },
   { id: 'entrepreneurs-athletes', label: 'Entrepreneurs & Athletes' },
-  {id : "foods" , label : "Food"}
+  { id : "foods" , label : "Food" },
+  { id : 'instagram-reels', label: 'Instagram Reels' },
+  { id : 'animated-reels', label: 'Animated Reels' }
 ] as const;
